@@ -1,0 +1,62 @@
+Title: Design and develop custom Application (Mini Project) using Salesforce
+Cloud.
+Step-1: Click on Lightning Experience
+Step-2: Click on Setup and select Setup for current App.
+Step-3:
+
+Click on Create an Object
+So Click on Object Manager Tab next to Home Tab
+Click on Create –Custom Object
+
+Step-4 New custom object page Open
+Label as a-Comment
+Plural label- comments
+
+Give Record Name as –comment name
+Data type- text
+Select Allow Reports Check Box
+Click on Save
+
+Step-5
+Click on Home-Search Tabs in Quick search
+Select Custom Object-Click on New
+
+Step-6
+For Object Select Comment
+For Tab Style Select Any Icon
+
+Click-Next-Next-Save
+Step-7
+Search App Manager in Quick Search and select app manager
+
+Enter name to app name
+
+Click on Next-Next-Next.
+
+Select Items (Contacts,Comment)
+Click on Next
+
+Step-8
+Select Profiles ( System Administrator) and move to selected profile.
+Click on Save and Finish.
+
+Step-9
+
+Click on App Launcher Symbol and Select Comment Box App
+
+Step-11
+Tour the app
+
+Step-12
+Try out mobile app
+-Select Chrome developer tools
+-Open Chrome-Right Click on Chrome page- Select Inspect
+-Click Toggle Device Mode Button to simulate your browser as a mobile
+device
+
+Step-13
+To simulate the sales force mobile app in your browser, copy and paste in url
+from previous tab.Delete the part of the url immediately.
+-Click on Left navigation bar
+-Find comment object under recent and click on it
+-Click new to create a comment
