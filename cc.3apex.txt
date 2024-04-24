@@ -1,0 +1,13 @@
+1. Open Developer Console 
+2. File ---> New ---> Select Apex Class 
+3. Type below mentioned code  
+public class FirstClass1 
+{     public static void firstMethod()   
+{   System.debug('WELCOME TO METIOE NASHIK');     }
+} 
+Note : you can write any code as application Laboratory Practice-II(Cloud Computing)        
+TE Computer Engineering MET’s BKC Institute of Engineering, Nashik                                         Prepared by : Prof. Anand Gharu 
+4. Click on Debug ---> Open Execute Acronymous Window 
+5. Type below code(Apex Code)       FirstClass1.firstMethod(); 
+6. Click on Open log then Execute code 
+7. Click on Debug only (You will get output) 
