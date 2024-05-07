@@ -1,3 +1,25 @@
+1. google cloude console
+2. sigin
+3. 3 line click > cloud overview > dashboard
+4. My Project > new project > project name > create
+5. enable that project by clicking on it in 'My Projects'
+6. Search 'Admin API' in search bar
+7. click on "App Engine Admin API" > Enable
+8. click on icon beside gift icon to open cloud shell
+9. > git clone "https:code link paste here"
+10. >ls
+11. >cd to folder which has .py file
+12. >python filename.py
+
+
+
+
+
+
+
+
+
+
 It is a platform-as-a-service (PaaS) Cloud computing platform that is fully managed and uses inbuilt
 services to run your apps.
 In particular, Google App Engine is designed to host applications with many simultaneous users.
