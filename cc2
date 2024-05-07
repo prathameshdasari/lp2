@@ -11,8 +11,30 @@
 11. >cd to folder which has .py file
 12. >python filename.py
 13. >rm -rf dirname
+14. >mkdir directory_name             =======> name new directory
+15. >touch filename.extension         =======> make new file
 
 
+~ requirement.txt:
+Flask==3.0.0
+
+
+~ app.yaml:
+runtime : python312
+
+~ main.py:
+import flask
+app = flask.Flask(__name__)
+@app.get("/")
+def hello():
+    """Return a friendly HTTP greeting."""
+    # return "Hello World!\n"  # ← Replace this line
+    who = flask.request.args.get("who", "world")
+    return f"Hello {who}!\n"
+
+
+if __name__ == "__main__":
+    app.run(host="localhost", port=8080, debug=True)
 
 
 
