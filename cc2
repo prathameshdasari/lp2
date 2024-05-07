@@ -10,7 +10,7 @@
 10. >ls
 11. >cd to folder which has .py file
 12. >python filename.py
-
+13. >rm -rf dirname
 
 
 
