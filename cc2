@@ -1,0 +1,9 @@
+It is a platform-as-a-service (PaaS) Cloud computing platform that is fully managed and uses inbuilt
+services to run your apps.
+In particular, Google App Engine is designed to host applications with many simultaneous users.
+Applications written for App Engine scale automatically. As more people use the application, App
+Engine allocates more resources for the application and manages the use of those resources. The app
+engine is a Cloud-based platform, is quite comprehensive and combines infrastructure as a service
+(IaaS), platform as a service (PaaS) and software as a service (SaaS).
+The app engine supports the delivery, testing and development of software on demand in a Cloud
+computing environment that supports millions of users and is highly scalable.
