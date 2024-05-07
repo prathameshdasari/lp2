@@ -25,16 +25,20 @@ class NQueens:
                 self.solve_backtracking(row + 1)
                 self.board[row][col] = 0
 
-    def solve_branch_and_bound(self, row=0):
+    def solve_branch_and_bound(self,available_cols, row=0 ):
         if row == self.n:
             self.solutions.append([row[:] for row in self.board])
             return True
 
-        for col in range(self.n):
+        for col in available_cols:
             if self.is_safe(row, col):
                 self.board[row][col] = 1
-                self.solve_branch_and_bound(row + 1)
+                new_available_cols = available_cols - {col}
+                self.solve_branch_and_bound(new_available_cols,row + 1)
                 self.board[row][col] = 0
+
+    def bnb(self):
+        self.solve_branch_and_bound(set(range(self.n)),0)
 
     def print_solutions(self):
         for i, solution in enumerate(self.solutions):
@@ -50,6 +54,6 @@ print("Backtracking Solutions:")
 n_queens.print_solutions()
 
 n_queens = NQueens(4)
-n_queens.solve_branch_and_bound()
+n_queens.bnb()
 print("Branch and Bound Solutions:")
 n_queens.print_solutions()
