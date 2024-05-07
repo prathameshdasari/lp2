@@ -14,3 +14,25 @@ provision the EC2 server.
 Step 3) In this step
  Once your desired Region is selected, come back to the EC2 Dashboard.
  Click on &#39;Launch Instance&#39; button in the section of Create Instance (as shown below).
+
+
+What is Ec2?
+-Elastic Compute Cloud
+-virtual compute server
+-provides resizable compute capacity in the cloud.
+-on which user can run their own applications.
+
+Regin and Avalability zone:
+choose regin accourding to us
+
+Types of instance - 
+1. General purpose
+2. compute-optimized instances
+3. memory-optimized instances
+4. storage-optimized instances.
+ex : t2.micro, t2.nano, t3.large, t3.medium, t3.xlarge,etc
+
+Elastic:
+Users can manage instances based on thier demand thus increase or decreas instances when ever needed.thus elastic.
+
+Overall, Amazon EC2 provides users with a flexible and scalable infrastructure for running a wide range of applications, from simple web servers to complex distributed systems. It is widely used by businesses of all sizes to host their applications, websites, and workloads in the cloud.
