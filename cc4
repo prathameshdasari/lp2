@@ -1,0 +1,20 @@
+1. prthameshd_c21009@salesforce.com
+2. object manager > create > custom object
+3. note : object = Table in DBMS, we will create library management system app
+4. object1 = student
+5. label = student , plural = students > save & new
+6. object2 = book
+7. label = book , plural label = books > save
+8. in left pannel select Field & Relationshi = this we use to add columns to table 
+9. field name, datatype select as u need.
+10. do this columns creation for both objects.
+11. go to setup
+12. search for "Tabs" > click tabs
+13. create tabs for the objects that we created before.
+14. search for app manager
+15. add app name
+16. insert/select the tabs that we created like student and book, can also select inbuild tabs
+17. select system administrator
+18. save and finish
+19. search app name in search bar 
+20. test app by adding students rows and book rows in the respective tabs
